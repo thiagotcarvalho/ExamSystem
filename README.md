@@ -1,6 +1,6 @@
 # exam_system
 
-Consists of a login page, an instructor page, and a student page.
+Consists of a login page, an instructor page, and a student page.\n
 Login page determines whether credentials match an instructor and student pair.
 Then based on credentials, user gets directed to the appropriate page.
 Instructor Page:
