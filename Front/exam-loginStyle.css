@@ -1,0 +1,64 @@
+/* ENTIRE DOCUMENT */
+#container {
+	width: auto;
+	margin: 20px auto;
+	font-size: 16px;
+
+	/* Debugging */
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+/* ENTIRE DOCUMENT END */
+
+/* HEADER */
+header {
+	margin: 10px; 
+	padding: 10px;
+	text-align: center;
+
+	/* Debugging */
+	border: 2px solid red;
+}
+
+#title {
+	display: inline-block;
+	padding: 10px;
+	font-size: 24px;
+
+	/* Debugging */
+	border: 2px dashed orange;
+}
+/* HEADER END */
+
+/* BODY */
+.row {
+	display: block;
+	clear: both;
+	overflow: auto;
+	width: auto
+	margin: 10px;
+	padding: 10px;
+
+	/* Debugging */
+	border: 2px dotted yellow;
+}
+
+.col {
+	display: inline-block;
+	float: left;
+
+	/* Debugging */
+	border: 2px solid green;
+}
+
+.half {
+	width: 50%;
+}
+
+form {
+	margin: 10px;
+	padding: 10px;
+
+	/* Debugging */
+	border: 2px dashed blue;
+}
