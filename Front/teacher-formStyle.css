@@ -1,0 +1,100 @@
+#container {
+	width: 80%;
+	margin: 20px auto;
+	font-size: 16px;
+	border-radius: 5px;
+
+	/* Debugging */
+	background-color: maroon;
+	border: 2px solid red;
+}
+
+header {
+	margin: 10px; 
+	padding: 10px;
+	text-align: center;
+
+	/* Debugging */
+	/*border: 2px solid red;*/
+	background-color: #e2e1e0;
+}
+
+.title {
+	display: inline-block;
+	padding: 10px;
+	font-size: 36px;
+	color: black;
+
+	/* Debugging */
+	/*border: 2px dashed orange;*/
+}
+
+./*split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+}*/
+
+/* Control the left side */
+/*.left {
+  left: 0;
+}*/
+
+/* Control the right side */
+/*.right {
+  right: 0;
+}*/
+
+/* If you want the content centered horizontally and vertically */
+/*.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+
+.test {
+	background-color: purple;
+	/*border: 2px dashed yellow;*/
+}
+
+.row {
+	display: block;
+	clear: both;
+	overflow: auto;
+	width: auto
+	margin: 10px;
+	padding: 10px;*/
+
+	/*border: 2px dotted yellow;*/
+}
+
+.col {
+	margin: auto;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+	color: white;
+	/*display: inline-block;*/
+	/*float: left;*/
+
+	/* Debugging */
+	/*border: 2px solid yellow;*/
+}
+
+.col-test {
+	display: inline-block;
+	float: left;
+
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+
+	/* Debugging */
+	/*border: 2px solid yellow;*/
+}
