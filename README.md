@@ -12,3 +12,9 @@ Instructor Page:
 Student Page:
 - Allows student to take exam.
 - Allows student to check exam after instructor has released it.
+
+Credentials:
+- Teacher: (username) teacher1
+           (password) teacher123
+- Student: (username) student1
+           (password) student123
