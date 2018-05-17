@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 18px;
+  /*background-color: green;*/
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  /*border: 1px solid red;*/
+  /*background: linear-gradient(to bottom, #f85032 0%,#ef6856 39%,#f6290c 64%,#f02f17 84%,#e73827 100%);*/
+  background-color: #e04428;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #db3d20;
+}
+
+#navbar a.active {
+  background-color: #c4280b;
+  color: white;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+  /*border: 1px solid #ccc;*/
+  border-top: none;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*=====================*/
+
+.row {
+  display: inline-block;
+  float: left;
+  clear: both;
+  width: auto;
+  margin: auto;
+  padding: 10px;
+  font-size: 14px;
+
+  border: 1px dashed navy;
+}
+
+.col {
+  display: block;
+  float:left;
+  margin: auto;
+  /*clear:left;*/
+  /*text-align: right;*/
+  font-size: 14px;
+
+  border: 2px solid green;
+}
+
+.col-window {
+  display: block;
+  float:left;
+  margin: 0;
+  width: 500px;
+  height: 600px;
+  overflow: auto;
+  /*clear:left;*/
+  font-size: 14px;
+
+  border: 3px solid #ccc;
+}
+
+.col-small {
+  display: block;
+  float:left;
+  width: 55px;
+  height: 600px;
+  overflow: auto;
+  /*clear:left;*/
+  font-size: 14px;
+
+  border: 2px solid white;
+  border: 2px solid red;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+  border: 3px solid orange;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#questBank tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+
+#questBank tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
